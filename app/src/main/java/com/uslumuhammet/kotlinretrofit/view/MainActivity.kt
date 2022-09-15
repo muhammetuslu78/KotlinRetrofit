@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity(), CryptoAdapter.Listener {
         Toast.makeText(this,"Clicked ${crypto.currency}",Toast.LENGTH_LONG).show()
         println("Deneme")
 
-        println("Experimental")
+        println("CHANGE 2 FOR TEST BRANCH")
     }
 
     private fun handleResponse(cryptoList2: List<Crypto>)
