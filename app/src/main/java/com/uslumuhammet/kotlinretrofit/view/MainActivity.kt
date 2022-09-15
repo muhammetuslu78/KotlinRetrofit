@@ -101,7 +101,10 @@ class MainActivity : AppCompatActivity(), CryptoAdapter.Listener {
         println("Deneme")
 
         println("CHANGE 2 FOR TEST BRANCH")
-        println("Yeni deneme")
+
+
+        print("laaaaaan")
+
     }
 
     private fun handleResponse(cryptoList2: List<Crypto>)
