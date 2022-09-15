@@ -99,7 +99,8 @@ class MainActivity : AppCompatActivity(), CryptoAdapter.Listener {
     override fun OnItemClick(crypto: Crypto) {
         Toast.makeText(this,"Clicked ${crypto.currency}",Toast.LENGTH_LONG).show()
         println("Deneme")
-        print("CHANGE 1")
+
+        println("CHANGE 2 FOR TEST BRANCH")
     }
 
     private fun handleResponse(cryptoList2: List<Crypto>)
